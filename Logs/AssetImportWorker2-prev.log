@@ -1,0 +1,1054 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.24f1 (334eb2a0b267) revision 3362482'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32555 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Tali/Player-project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64130
+Successfully changed project path to: C:/Users/Tali/Player-project
+C:/Users/Tali/Player-project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18048] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 916891882 [EditorId] 916891882 [Version] 1048832 [Id] WindowsEditor(7,Bootylicious) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18048] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 916891882 [EditorId] 916891882 [Version] 1048832 [Id] WindowsEditor(7,Bootylicious) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 15.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tali/Player-project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10053 MB
+    Driver:   31.0.15.5186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012226 seconds.
+- Loaded All Assemblies, in  0.391 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.309 seconds
+Domain Reload Profiling: 696ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (116ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (126ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (309ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.697 seconds
+Refreshing native plugins compatible for Editor in 6.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1390ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (156ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (700ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (524ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (58.1 KB). Loaded Objects now: 3938.
+Memory consumption went from 129.8 MB to 129.7 MB.
+Total: 1.917400 ms (FindLiveObjects: 0.138400 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.617200 ms  DeleteObjects: 0.108700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 672938.301394 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f86c6619e939fb04ba4039906b1e5402') in 0.133452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.482 seconds
+Refreshing native plugins compatible for Editor in 6.33 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.179 seconds
+Domain Reload Profiling: 1655ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1180ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 7.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3944.
+Memory consumption went from 130.9 MB to 130.9 MB.
+Total: 3.027000 ms (FindLiveObjects: 0.367200 ms CreateObjectMapping: 0.209800 ms MarkObjects: 2.380000 ms  DeleteObjects: 0.038600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 58.460342 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe57a43ce6d11a6bbc490dbcb77ed12') in 0.130196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.497 seconds
+Refreshing native plugins compatible for Editor in 7.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.227 seconds
+Domain Reload Profiling: 1717ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (254ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (510ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 6.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3955.
+Memory consumption went from 137.3 MB to 137.3 MB.
+Total: 3.200100 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.240000 ms MarkObjects: 2.518400 ms  DeleteObjects: 0.037600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 112.337779 seconds.
+  path: Assets/Cube.prefab
+  artifactKey: Guid(d9a6d53a56c76af4782970b8a476f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cube.prefab using Guid(d9a6d53a56c76af4782970b8a476f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9e4ddaa470abb74d0ae087190e37a0') in 0.082271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 15.856654 seconds.
+  path: Assets/Test Cube.prefab
+  artifactKey: Guid(d9a6d53a56c76af4782970b8a476f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test Cube.prefab using Guid(d9a6d53a56c76af4782970b8a476f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedec556965c92ffb5475a4f99cbd6cb') in 0.036455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 9.563767 seconds.
+  path: Assets/Stone.mat
+  artifactKey: Guid(22a83e6ff7f5ae147a413a2f96c947a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone.mat using Guid(22a83e6ff7f5ae147a413a2f96c947a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca31c8c483410bde15b092b60528b82') in 0.042434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 230.484762 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(3d79fa1db0f697649a3b7b364b53e642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(3d79fa1db0f697649a3b7b364b53e642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56068a68362fffe433477c1091cf5cd9') in 0.007914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.536600 seconds.
+  path: Assets/Wood.mat
+  artifactKey: Guid(3d79fa1db0f697649a3b7b364b53e642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wood.mat using Guid(3d79fa1db0f697649a3b7b364b53e642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4242a98dca92c53957746738e38bc86e') in 0.011849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 142.918327 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(303a21a15c3349649ab7dff3307f19e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(303a21a15c3349649ab7dff3307f19e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb25e78bf8e6df616e9f86fa8c69b0b') in 0.007714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.948294 seconds.
+  path: Assets/Mint.mat
+  artifactKey: Guid(303a21a15c3349649ab7dff3307f19e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mint.mat using Guid(303a21a15c3349649ab7dff3307f19e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f2074b148051d3e43e14ad2272bca1') in 0.014804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.605128 seconds.
+  path: Assets/Floor.mat
+  artifactKey: Guid(535db8c7e8c0d5943be1ca5b611405c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Floor.mat using Guid(535db8c7e8c0d5943be1ca5b611405c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7faf566ea4f453d614c97f0fa01dff') in 0.021916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 299.481889 seconds.
+  path: Assets/Chair.prefab
+  artifactKey: Guid(8c35d3d26fec5444c9c82eab212fd9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chair.prefab using Guid(8c35d3d26fec5444c9c82eab212fd9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474b8e9290e256d08cac03f461c3db49') in 0.015993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 285.800684 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(1a353dba9b19e8b49a49f36d1f188d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(1a353dba9b19e8b49a49f36d1f188d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b1d93ed9f67fe9008b19feb03dd50d') in 0.016589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 328.604304 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(28c7ccf79426c1e4abb35eeaee47f289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(28c7ccf79426c1e4abb35eeaee47f289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ee03e114206c2742364c1614150cb3') in 0.008271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 17.599104 seconds.
+  path: Assets/Dark Wood.mat
+  artifactKey: Guid(28c7ccf79426c1e4abb35eeaee47f289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark Wood.mat using Guid(28c7ccf79426c1e4abb35eeaee47f289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05458bf8547d755f5e4c3b0da4a873d3') in 0.024225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 232.089792 seconds.
+  path: Assets/Table.prefab
+  artifactKey: Guid(dec7b7ec39d728b4f96380af6001c337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Table.prefab using Guid(dec7b7ec39d728b4f96380af6001c337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b779397838af23ffda980b58530ba817') in 0.013512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.397132 seconds.
+  path: Assets/Couch.prefab
+  artifactKey: Guid(97f37e8978d411a4a9ee9de4723ae8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Couch.prefab using Guid(97f37e8978d411a4a9ee9de4723ae8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd39cbd55379e934958f8eac5d38b4c4') in 0.008976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 2.791493 seconds.
+  path: Assets/SideTable.prefab
+  artifactKey: Guid(65b1cb8d1e3cc4c40a3085eca753fc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SideTable.prefab using Guid(65b1cb8d1e3cc4c40a3085eca753fc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f880a4aeaf268e8348bfbb4068c6998') in 0.008466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.451118 seconds.
+  path: Assets/Rug (1).prefab
+  artifactKey: Guid(1cfb1dac673d8fd44a90e50155989bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rug (1).prefab using Guid(1cfb1dac673d8fd44a90e50155989bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3112dbc37cea069590aaaecaedc011e0') in 0.008402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 361.539451 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(b9c6719b54e094a4a8aeadd69065517b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(b9c6719b54e094a4a8aeadd69065517b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f76f0235f8189af6418f3c5be5fd9d') in 0.016583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 20.549849 seconds.
+  path: Assets/Screen.mat
+  artifactKey: Guid(b9c6719b54e094a4a8aeadd69065517b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Screen.mat using Guid(b9c6719b54e094a4a8aeadd69065517b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbf43aaa4eff0a0b4a9ddaeba213d49') in 0.016093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.860957 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(f866362a2f021074c80b88cdd2aa4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(f866362a2f021074c80b88cdd2aa4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0091a311c5440899aa6cb92b5092b1b') in 0.012919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.751937 seconds.
+  path: Assets/Almost Black.mat
+  artifactKey: Guid(f866362a2f021074c80b88cdd2aa4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Almost Black.mat using Guid(f866362a2f021074c80b88cdd2aa4ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed9e388020eff72560ab45a23a0f2c7') in 0.028025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.498 seconds
+Refreshing native plugins compatible for Editor in 7.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.203 seconds
+Domain Reload Profiling: 1694ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (250ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1204ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 6.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 3993.
+Memory consumption went from 139.5 MB to 139.5 MB.
+Total: 3.454500 ms (FindLiveObjects: 0.368300 ms CreateObjectMapping: 0.118600 ms MarkObjects: 2.925800 ms  DeleteObjects: 0.040500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 397.448462 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9148004fde38b94c918aba893e4ceb4') in 0.093714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 5.072373 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd088f74f553e3253d3b89b269e62d1a') in 0.015647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 1.409091 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8718ded68ae215f88624ad8bb8dd65ba') in 0.014062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 2.424677 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ce7df3f62c8301182de50f4e09dd29') in 0.015245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 5.622971 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c71be73652d27369bd96719d27299bf') in 0.014703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 3.010291 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a95db91cf260290a704491c50101ad2') in 0.012626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 6.274025 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50b39b7aa3c5ea0dd98b8f93b8c5ea0') in 0.022077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 5.002060 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c93b179475811b64501ed14a5ab5870') in 0.014127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 4.262891 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965c70525f7b5d4e95c4d442eca38256') in 0.022159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 18.666179 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcaa9db5910fa19d7686eb1944cbfafc') in 0.031295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 1.781685 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8850dbc3cb1a27f0aad33312bff06a6e') in 0.016616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 4.017928 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e3fb77ae92e66601ac9f22d1c30b34') in 0.024008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 2.389512 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacb381d14603337480a4484d240fa36') in 0.013933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 3.598547 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd225ab54cf96cbfd49de1d92dbc60d96') in 0.020157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 1.828825 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c961eb7055273dd1b16fb23c60ff49') in 0.015567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 3.407224 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57c0d1070397d8323cdb3916ac43b87') in 0.015134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 7.651746 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91053be1293ec24994e5fa2b5090459') in 0.021284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 4.402362 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef56eb90eeb473a49fa8d685e7e5fa90') in 0.014486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 6.419519 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4c4fa73c268c05d39bad3003986e72') in 0.013749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 2.227854 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5125674fb70667cd439b888962bf1e') in 0.015436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 3.189591 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1515cb88f6850c89713002c4c874e7') in 0.014353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 1.416064 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7233143de94588171fb4d0cd4cf6267') in 0.014385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 4.626406 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b01a94559cab2fe05aec65d260e8a6') in 0.014608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 6.224370 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90cea4fa144aad2a110313ce77c27aa') in 0.023425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 2.400693 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48706a452735764459ab700d75c3e4c') in 0.014265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.405731 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894ead388c60781d95a7b1825c926c45') in 0.013844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 3.394957 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2412df25053d22ea6a5e1b4e6a5921') in 0.017255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 13.305450 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d01d6267ea0bf56d1b9d7f96c522d5') in 0.019637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 2.988038 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83587bef9e838455fadf044ba39fa45') in 0.014396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 27.074428 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d122428409275b692cae5f99baa3c6') in 0.015181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 1.423665 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e4311cd7541fc9bc8defaf51953681') in 0.014432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 1.226485 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941527b691162ec00bbb61d033a2b439') in 0.015120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 2.864182 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9712cf629914a0752adccf954fe36a1') in 0.016760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 2.091094 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec9a6965a05683d1619392b0aaf1e73') in 0.013438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 4.047751 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e8049d4ea503440a55713f749feea5') in 0.032986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 1.231077 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7a564ce1011f8fbae72d84f5e96768') in 0.021180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 7.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.286 seconds
+Domain Reload Profiling: 1794ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1286ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 7.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 3996.
+Memory consumption went from 141.5 MB to 141.5 MB.
+Total: 3.572100 ms (FindLiveObjects: 0.351400 ms CreateObjectMapping: 0.097300 ms MarkObjects: 3.082700 ms  DeleteObjects: 0.039600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.522 seconds
+Refreshing native plugins compatible for Editor in 7.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.230 seconds
+Domain Reload Profiling: 1746ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1231ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 7.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 3999.
+Memory consumption went from 143.4 MB to 143.4 MB.
+Total: 2.916900 ms (FindLiveObjects: 0.376700 ms CreateObjectMapping: 0.115300 ms MarkObjects: 2.387700 ms  DeleteObjects: 0.036000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 112.670860 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e4782f90470780c654692e8a02a951') in 0.117561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 7.124727 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9ee74b3606f335e906035eda4921c6') in 0.014373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 2.020537 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e1cb8dc3e65da47f2fc9f1b0196646') in 0.024164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 7.381512 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57ab876cf4b76a00911bc92e0b4eb44') in 0.036050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 101.306634 seconds.
+  path: Assets/Couch.prefab
+  artifactKey: Guid(97f37e8978d411a4a9ee9de4723ae8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Couch.prefab using Guid(97f37e8978d411a4a9ee9de4723ae8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e2734d5d9759ea9fd6c7dabc66bd57') in 0.015057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.013663 seconds.
+  path: Assets/Stone.mat
+  artifactKey: Guid(22a83e6ff7f5ae147a413a2f96c947a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone.mat using Guid(22a83e6ff7f5ae147a413a2f96c947a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ff5e2c1fbab72a064357c7affac65e') in 0.023787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ice Cream Man.prefab
+  artifactKey: Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ice Cream Man.prefab using Guid(013b33eb375e99e40bbb183f6fa65b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8293149216900cdc5c80cc458bd7c9') in 0.013474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Test Cube.prefab
+  artifactKey: Guid(d9a6d53a56c76af4782970b8a476f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test Cube.prefab using Guid(d9a6d53a56c76af4782970b8a476f242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f484c003a7c385020758202eebf39d') in 0.008845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(1a353dba9b19e8b49a49f36d1f188d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(1a353dba9b19e8b49a49f36d1f188d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc7b1399bacacb32e9df266afdf8c0b') in 0.010908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PlayerPhysics.physicMaterial
+  artifactKey: Guid(4c203fd8000590342befa20e9f78f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerPhysics.physicMaterial using Guid(4c203fd8000590342befa20e9f78f353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c3ef2ee3bdcbeaa12c5fb09b1fe67b') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
